@@ -1,0 +1,6 @@
+body.colors-dark, .colors-dark .site-content-contain, .colors-dark .navigation-top{
+    background: rgba(34,34,34,0.8);
+}
+.colors-dark .main-navigation ul {
+    background-color: transparent;
+}

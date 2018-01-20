@@ -1,0 +1,52 @@
+/*
+ Theme Name:   JordanQuan
+ Author:       Jordan Quan
+ Template:     twentyseventeen
+ Version:      1.0.0
+*/
+html{
+    font-size:1em;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: monospace;
+	font-size: 1.2rem;
+}
+
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title{
+    font-size: 1.5rem;
+    text-transform: initial;
+    font-variant: small-caps;
+}
+
+@media screen and (min-width: 48em) {
+    .navigation-top {
+        font-size: 1rem;
+    }
+}
+
+h2.widget-title {
+    font-size: 1rem;
+    text-transform: initial;
+    font-variant: small-caps;
+}
+
+.site-title{
+    text-transform: initial;
+    font-variant: small-caps;
+}
+
+.has-header-image .custom-header-media img, .has-header-video .custom-header-media video, .has-header-video .custom-header-media iframe, .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+    position: fixed;
+}
+
+body, .navigation-top, .site-content-contain {
+    background: rgba(255,255,255,0.8);
+}
+.main-navigation ul{
+    background-color: transparent;
+}
