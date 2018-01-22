@@ -1,6 +1,15 @@
-body.colors-dark, .colors-dark .site-content-contain, .colors-dark .navigation-top{
-    background: rgba(34,34,34,0.8);
+body.colors-dark, .colors-dark .site-content-contain{
+    background: none;
 }
+
 .colors-dark .main-navigation ul {
     background-color: transparent;
 }
+
+.colors-dark .navigation-top, body.home.colors-dark article, .colors-dark footer{
+    background: rgba(34,34,34,0.8);
+}
+
+body:not(.home) .site-content{
+    background-color: rgba(34,34,34,0.8);
+} 
