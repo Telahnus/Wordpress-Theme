@@ -80,3 +80,13 @@ body:not(.home) .site-content{
     padding-top: 4.5em;
     padding-bottom: 6em;
 }
+
+.site-navigation-fixed.navigation-top {
+    bottom: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 7;
+}
